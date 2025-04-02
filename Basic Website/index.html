@@ -3,58 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Awesome Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        .about {
+            background: #fff;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .socials a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h1>My First Awesome Website</h1>
-        <p>This is a basic website example using HTML, CSS, and JavaScript.</p>
-        <button onclick="alertMessage()">Click Me</button>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a company dedicated to creating simple and beautiful websites.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Web Design</li>
-            <li>SEO Optimization</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <header>Welcome to My Personal Page</header>
+    
+    <div class="container">
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Sridatta Khoday, a passionate individual who loves technology and entrepreneurship</p>
+        </div>
+        
+        <div class="socials">
+            <h3>Connect with me</h3>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </div>
+    
+    <footer>© 2025 Sridatta Khoday | All Rights Reserved</footer>
 </body>
 </html>
